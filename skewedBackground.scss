@@ -1,0 +1,32 @@
+$color_1: ghostwhite;
+$font-family_1: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $font-family_1;
+}
+section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background-image: linear-gradient(185deg, #22313F 70%, #FFF calc(70% + 2px));
+	display: flex;
+	justify-content: center;
+	align-items: top;
+}
+.content {
+	position: relative;
+	padding-top: 8em;
+	max-width: 700px;
+	text-align: center;
+	h3 {
+		margin: 0;
+		padding: 0;
+		color: $color_1;
+		font-size: 2em;
+	}
+	p {
+		color: $color_1;
+	}
+}
